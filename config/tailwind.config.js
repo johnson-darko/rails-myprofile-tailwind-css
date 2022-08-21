@@ -5,8 +5,7 @@ module.exports = {
     './public/*.html',
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
-    './node_modules/flowbite/**/*.js'
-  
+    './flowbite/**/*.js'
     
   ],
   theme: {
@@ -20,6 +19,6 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
-    require("/node_modules/flowbite/plugin.js"),
+    require('flowbite/plugin'),
   ]
 }
