@@ -6,6 +6,7 @@ module.exports = {
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
     './node_modules/flowbite/**/*.js'
+  
     
   ],
   theme: {
